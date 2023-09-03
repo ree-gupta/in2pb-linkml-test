@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "in2pb-linkml-test"
+version = "0.1.0"
+description = ""
+authors = ["Reema Gupta <reema.gupta@lmu.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+linkml-runtime = "^1.1.24"
+schema-automator = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
