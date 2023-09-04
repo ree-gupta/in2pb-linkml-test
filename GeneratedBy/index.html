@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://ree-gupta.github.io/in2pb-linkml-test/GeneratedBy/" rel="canonical"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>Class: GeneratedBy - in2pb-linkml-test</title>
+<link href="../css/theme.css" rel="stylesheet"/>
+<link href="../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Class: GeneratedBy";
+        var mkdocs_page_input_path = "GeneratedBy.md";
+        var mkdocs_page_url = "/in2pb-linkml-test/GeneratedBy/";
+      </script>
+<!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a class="icon icon-home" href=".."> in2pb-linkml-test
+        </a><div role="search">
+<form action="../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="..">Index</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="..">in2pb-linkml-test</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href=".."></a> »</li>
+<li class="breadcrumb-item active">Class: GeneratedBy</li>
+<li class="wy-breadcrumbs-aside">
+<a class="icon icon-github" href="https://github.com/ree-gupta/in2pb-linkml-test/edit/master/docs/GeneratedBy.md"> Edit on GitHub</a>
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h1 id="class-generatedby">Class: GeneratedBy</h1>
+<p><em>"List of GeneratedBy objects used to specify the provenance."</em></p>
+<p>URI: <a href="https://w3id.org/ree-gupta/in2pb/in2pb-datasetGeneratedBy">in2pb_dataset:GeneratedBy</a></p>
+<div class="mermaid"> classDiagram
+    class GeneratedBy
+      GeneratedBy : codeURL
+
+      GeneratedBy : container
+
+          GeneratedBy --|&gt; Container : container
+
+      GeneratedBy : description
+
+      GeneratedBy : name
+
+      GeneratedBy : sourceDatasets
+
+          GeneratedBy --|&gt; SourceDatasets : sourceDatasets
+
+      GeneratedBy : version
+
+
+</div>
+<!-- no inheritance hierarchy -->
+<h2 id="slots">Slots</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cardinality and Range</th>
+<th>Description</th>
+<th>Inheritance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../name/">name</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>A human-readable name for a thing</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../version/">version</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Version of the GeneratedBy object</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../description/">description</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>A human-readable description for a thing</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../codeURL/">codeURL</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>URL of the code used to generate the dataset</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../container/">container</a></td>
+<td>0..1 <br/> <a href="../Container/">Container</a></td>
+<td>Container object used to specify the location and relevant attributes of soft...</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../sourceDatasets/">sourceDatasets</a></td>
+<td>0..1 <br/> <a href="../SourceDatasets/">SourceDatasets</a></td>
+<td>SourceDatasets object used to specify the locations and relevant attributes o...</td>
+<td>direct</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usages">Usages</h2>
+<table>
+<thead>
+<tr>
+<th>used by</th>
+<th>used in</th>
+<th>type</th>
+<th>used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../In2PrimateBrainsDataset/">In2PrimateBrainsDataset</a></td>
+<td><a href="../generatedBy/">generatedBy</a></td>
+<td>range</td>
+<td><a href="./">GeneratedBy</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<h3 id="schema-source">Schema Source</h3>
+<ul>
+<li>from schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset</li>
+</ul>
+<h2 id="mappings">Mappings</h2>
+<table>
+<thead>
+<tr>
+<th>Mapping Type</th>
+<th>Mapped Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>self</td>
+<td>in2pb_dataset:GeneratedBy</td>
+</tr>
+<tr>
+<td>native</td>
+<td>in2pb_dataset:GeneratedBy</td>
+</tr>
+</tbody>
+</table>
+<h2 id="linkml-source">LinkML Source</h2>
+<!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
+<h3 id="direct">Direct</h3>
+<details>
+<pre><code class="language-yaml">name: GeneratedBy
+description: '"List of GeneratedBy objects used to specify the provenance."'
+from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+slots:
+- name
+- version
+- description
+- codeURL
+- container
+- sourceDatasets
+
+</code></pre>
+</details>
+<h3 id="induced">Induced</h3>
+<details>
+<pre><code class="language-yaml">name: GeneratedBy
+description: '"List of GeneratedBy objects used to specify the provenance."'
+from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+attributes:
+  name:
+    name: name
+    description: A human-readable name for a thing
+    from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+    rank: 1000
+    slot_uri: schema:name
+    alias: name
+    owner: GeneratedBy
+    domain_of:
+    - NamedThing
+    - GeneratedBy
+    range: string
+  version:
+    name: version
+    description: Version of the GeneratedBy object.
+    from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+    close_mappings:
+    - openminds_core:[placeholder]
+    - bids:[placeholder]
+    rank: 1000
+    alias: version
+    owner: GeneratedBy
+    domain_of:
+    - GeneratedBy
+    range: string
+  description:
+    name: description
+    description: A human-readable description for a thing
+    from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+    rank: 1000
+    slot_uri: schema:description
+    alias: description
+    owner: GeneratedBy
+    domain_of:
+    - NamedThing
+    - GeneratedBy
+    range: string
+  codeURL:
+    name: codeURL
+    description: URL of the code used to generate the dataset.
+    from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+    close_mappings:
+    - openminds_core:uRL
+    - bids:[placeholder]
+    rank: 1000
+    alias: codeURL
+    owner: GeneratedBy
+    domain_of:
+    - GeneratedBy
+    range: string
+  container:
+    name: container
+    description: Container object used to specify the location and relevant attributes
+      of software container image used to produce the dataset.
+    from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+    close_mappings:
+    - bids:[placeholder]
+    broad_mappings:
+    - openminds_core:software
+    rank: 1000
+    alias: container
+    owner: GeneratedBy
+    domain_of:
+    - GeneratedBy
+    range: Container
+  sourceDatasets:
+    name: sourceDatasets
+    description: SourceDatasets object used to specify the locations and relevant
+      attributes of all source datasets.
+    from_schema: https://w3id.org/ree-gupta/in2pb/in2pb-dataset
+    close_mappings:
+    - bids:[placeholder]
+    rank: 1000
+    alias: sourceDatasets
+    owner: GeneratedBy
+    domain_of:
+    - GeneratedBy
+    range: SourceDatasets
+
+</code></pre>
+</details>
+</div>
+</div><footer>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span>
+<a class="fa fa-github" href="https://github.com/ree-gupta/in2pb-linkml-test" style="color: #fcfcfc"> GitHub</a>
+</span>
+</span>
+</div>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "..";</script>
+<script src="../js/theme_extra.js"></script>
+<script src="../js/theme.js"></script>
+<script src="../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script type="module">import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
+mermaid.initialize({});</script></body>
+</html>
