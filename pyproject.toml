@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.9"
 linkml-runtime = "^1.1.24"
 schema-automator = "^0.3.0"
+mkdocs-mermaid2-plugin = "^1.1.0"
 
 
 [build-system]
